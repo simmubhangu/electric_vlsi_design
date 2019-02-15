@@ -14,12 +14,13 @@ if [[ "$_java" ]]; then
     if [[ "$version" > "1.5" ]]; then
      	echo "setting the enviornement variable"
 		echo "alias electric='java -cp $(pwd)/electric-9.07.jar:electricSFS-9.07.jar com.sun.electric.Launcher'" >> ~/.bashrc
-		echo "Configuration Done"
-		echo "======================================="
 		echo "this is only time process"
 		echo "======================================="
 		echo "electric  # to run the electric"
 		echo "======================================="   
+		echo "======================================="
+		echo "Configuration Done"
+		echo "======================================="
 	else
 		echo "Install the new java version"
     fi
